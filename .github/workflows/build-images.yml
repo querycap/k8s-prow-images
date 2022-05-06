@@ -27,7 +27,7 @@ jobs:
         with:
           driver-opts: network=host
 
-      - uses: docker/login-action@v1
+      - uses: docker/login-action@v2
         name: Login ghcr.io
         with:
           registry: ghcr.io
